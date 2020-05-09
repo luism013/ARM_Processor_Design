@@ -385,8 +385,7 @@ initial #50 $finish;
         MOC=1'b1;
         
         
-repeat(5) #10 IR[20]=1'b0;
-         #10  IR[20]=1'b0; 
+
 end
 initial begin
 $display("IR------------ ------------ ------IR24-23----L/S----- Curr_State----Next-State------CLK---register-----Base_Reg---counter---------------Time");
